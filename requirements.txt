@@ -137,10 +137,6 @@ sphinxcontrib-serializinghtml==1.1.4
 spyder==4.1.5
 spyder-kernels==1.9.4
 statsmodels==0.11.1
-tensorboard==2.2.2
-tensorboard-plugin-wit==1.7.0
-tensorflow==2.2.0
-tensorflow-estimator==2.2.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
