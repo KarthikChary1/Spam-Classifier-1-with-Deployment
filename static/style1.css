@@ -1,0 +1,11 @@
+body{
+    background-color: silver;
+    text-align: center;
+}
+#inp{
+    color:red;
+    background-color: royalblue;
+}
+p{
+    background-color: rgba(65, 105, 225, 0.322);
+}
