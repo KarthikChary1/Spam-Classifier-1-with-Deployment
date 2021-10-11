@@ -12,19 +12,17 @@
    <div class="results">
     {% if prediction==1 %}
         <h1>Prediction: <span class='danger'>This is a SPAM message.</span></h1>
-        <img class="gif" src="https://media.giphy.com/media/d2jgpwowg1DRE7mw/giphy.gif" width=50% alt="SPAM Image">
+        <img class="gif" src="https://media.giphy.com/media/d2jgpwowg1DRE7mw/giphy.gif" width=20% alt="SPAM Image">
         <br>
     {% elif prediction==0 %}
         <h1>Prediction: <span class='safe'>This is NOT a spam message.</span></h1>
-        <img class="gif" src="https://media.giphy.com/media/dyKvYPh5CO5Ppq6TAB/giphy.gif" width=50% alt="Not a spam image">
+        <img class="gif" src="https://media.giphy.com/media/dyKvYPh5CO5Ppq6TAB/giphy.gif" width=20% alt="Not a spam image">
         <br>
     {% endif %}
        <br>
        <hr> <hr>
-       <button onclick="window.location.href='.\home.html'">enter next</button>
-       <form>
- <input type="button" value="Go back!" onclick="history.back()">
-</form>
+       <button type="button" onclick="javascript:history.back()">enter again</button>
+      
         <hr>
         <hr>
 </div>
